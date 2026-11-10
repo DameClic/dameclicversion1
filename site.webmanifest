@@ -1,0 +1,16 @@
+{
+  "name": "Dame Clic — Agencia de Marketing Digital y Desarrollo Web Costa Rica",
+  "short_name": "Dame Clic",
+  "description": "Agencia de Marketing Digital en Costa Rica: Diseño de Páginas Web, Tiendas en Línea, SEO, Google Ads, Redes Sociales, Analítica Web y Hospedaje Empresarial.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#F5F5F7",
+  "theme_color": "#0D003E",
+  "icons": [
+    {
+      "src": "./assets/images/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# robots.txt — Dame Clic Costa Rica (https://dameclic.com)
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /404.html
+
+Sitemap: https://dameclic.com/sitemap.xml

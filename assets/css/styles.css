@@ -1,0 +1,62 @@
+/* ==========================================================================
+   Dame Clic (https://dameclic.com) — Bespoke Editorial Stylesheet
+   Estándar Obligatorio: Modo Claro Editorial por defecto (#F5F5F7 + #FFFFFF)
+   ========================================================================== */
+
+html.light {
+  color-scheme: light;
+  --bg-page: #F5F5F7;
+  --bg-surface: #FFFFFF;
+  --bg-subtle: #FAFAFC;
+  --text-main: #111113;
+  --text-muted: #52525B;
+  --text-subtle: #71717A;
+  --border-line: #E4E4E7;
+  --brand-navy: #0D003E;
+  --brand-blue: #0066CC;
+}
+
+html.dark {
+  color-scheme: dark;
+  --bg-page: #0B0B0E;
+  --bg-surface: #131318;
+  --bg-subtle: #1B1B22;
+  --text-main: #F4F4F6;
+  --text-muted: #A1A1AA;
+  --text-subtle: #71717A;
+  --border-line: #27272A;
+  --brand-navy: #1E293B;
+  --brand-blue: #38BDF8;
+}
+
+.editorial-serif {
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.bento-card {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s ease, box-shadow 0.35s ease;
+}
+
+.bento-card:hover {
+  transform: translateY(-2px);
+}
+
+.editorial-img {
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.bento-card:hover .editorial-img,
+.group:hover .editorial-img {
+  transform: scale(1.03);
+}
+
+.logo-grayscale {
+  filter: grayscale(100%) contrast(1.08);
+  opacity: 0.65;
+  transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
+.logo-grayscale:hover {
+  filter: grayscale(0%) contrast(1);
+  opacity: 1;
+}
